@@ -1,0 +1,27 @@
+# Developed on a Lightning AI GPU studio (Python 3.10, CUDA).
+# Install a CUDA build of torch/torchvision for your system first: https://pytorch.org/get-started/locally/
+torch
+torchvision
+numpy
+scipy
+opencv-python
+scikit-image
+scikit-learn
+matplotlib
+Pillow
+requests
+jupyter
+ipywidgets
+
+# Vision models
+SAM-2 @ git+https://github.com/facebookresearch/sam2.git
+clip @ git+https://github.com/openai/CLIP.git
+controlnet_aux            # PiDiNet edge detector
+transformers              # BLIP captioning (optional ordering mode)
+huggingface_hub
+kornia
+gdown
+
+# Optional: SDXL + ControlNet regional-diffusion experiment (~15 GB of weights on first run)
+# diffusers
+# accelerate
